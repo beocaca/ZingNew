@@ -1,0 +1,82 @@
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.congnghe h1 {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  font-size: 50px;
+  font-weight: 600;
+  padding-top: 50px;
+}
+
+.congnghe ul {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+
+.congnghe ul li {
+  padding: 0 30px;
+  font-size: 18px;
+}
+
+.congnghe--banner {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -2px;
+}
+
+.congnghe--banner .item {
+  width: 33.33%;
+  padding: 2px;
+}
+
+.congnghe--banner .item .img {
+  position: relative;
+}
+
+.congnghe--banner .item .txt {
+  position: absolute;;
+  bottom: 40px;
+  left: 0;
+  color: white;
+  font-weight: 600;
+  padding: 0px 20px;
+  font-size: 18px;
+}
+
+.congnghe--banner .item.item--2 .img img {
+  height: 50%;
+}
+
+.congnghe--banner .item.item--2 .img .txt {
+  position: static;
+  background-color: #141a39;
+  flex-grow: 1;
+  font-size: 26px;
+  padding-top: 20px;
+}
+
+.congnghe--banner .item.item--2 .img {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.congnghe--banner .item.item--1 {
+  width: 66.67%;
+}
+
+.congnghe--banner .item.item--1 .txt {
+  font-size: 35px;
+  padding-left: 30px;
+}
+
+.sticky1 {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
