@@ -937,7 +937,6 @@ li {
   top: 100%;
   left: 0;
   width: 100%;
-
   /*display: none;*/
   opacity: 0;
   visibility: hidden;
@@ -959,6 +958,7 @@ li {
 }
 
 #showpop.showx .y {
+
   display: none;
 }
 
@@ -1026,7 +1026,7 @@ li {
 .bg-menu.active {
   opacity: 0.4;
   visibility: visible;
-  transition:1s ;
+  transition: 1s;
 }
 
 .sticky {
